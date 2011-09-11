@@ -18,11 +18,11 @@ public class MainTabActivity extends TabActivity {
 		setContentView(R.layout.tab_activity);
 
 		// Creates tabs.
-		addTabSpec("music", R.string.tab_music,
-				android.R.drawable.ic_menu_search, MusicActivity.class);
-		addTabSpec("starred", R.string.tab_starred,
-				android.R.drawable.ic_menu_more, MusicActivity.class);
-		addTabSpec("more", R.string.tab_more, android.R.drawable.ic_menu_more,
+		addTabSpec("music", R.string.tab_music, R.drawable.ic_tab_music,
+				MusicActivity.class);
+		addTabSpec("starred", R.string.tab_starred, R.drawable.ic_tab_starred,
+				MusicActivity.class);
+		addTabSpec("more", R.string.tab_more, R.drawable.ic_tab_more,
 				MusicActivity.class);
 
 	}
