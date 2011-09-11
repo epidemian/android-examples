@@ -1,0 +1,3 @@
+# Ignore gen/ and bin/ directories.
+gen
+bin
